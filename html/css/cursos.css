@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #16a085; 
+}
+
+form, table, h1, h2, p {
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #16a085;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #16a085;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    background-color: #16a085; 
+    color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+
+
+
+@keyframes balanceo {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(30deg);
+    }
+    40% {
+        transform: rotate(-30deg);
+    }
+    60% {
+        transform: rotate(30deg);
+    }
+    80% {
+        transform: rotate(-30deg); 
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+}
+
+#emoji {
+    display: inline-block;
+    animation: balanceo 7s ease-in-out forwards; 
+}
